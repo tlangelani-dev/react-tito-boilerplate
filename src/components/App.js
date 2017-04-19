@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 class App extends Component {
     render() {
@@ -12,5 +13,15 @@ class App extends Component {
         );
     }
 }
+
+// define default properties
+App.defaultProps = {
+    heading: 'Default Heading'
+};
+
+// define expected property types
+App.propTypes = {
+    heading: PropTypes.string
+};
 
 export default App;

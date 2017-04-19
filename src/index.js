@@ -3,6 +3,6 @@ import { render } from 'react-dom';
 import App from './components/App';
 
 render(
-    <App heading="React Spree App" />,
+    <App />,
     document.getElementById('app')
 );
