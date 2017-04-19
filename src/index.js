@@ -1,13 +1,8 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-
-class App extends Component {
-    render() {
-        return <h1>React App</h1>;
-    }
-}
+import App from './components/App';
 
 render(
-    <App />,
+    <App heading="React Spree App" />,
     document.getElementById('app')
 );
