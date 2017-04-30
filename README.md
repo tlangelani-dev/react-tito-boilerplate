@@ -4,4 +4,4 @@ Build files:
 `npm run build`
 
 Start development server:
-`npm run `
+`npm start`
